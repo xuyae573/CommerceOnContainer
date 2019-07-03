@@ -1,0 +1,1138 @@
+INFO  2019-03-16 10:48:11,704 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/  
+ERROR 2019-03-16 10:48:12,844 [15   ] e.Diagnostics.ExceptionHandlerMiddleware - An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.Text.Encoding.GetBytes(String s)
+   at ProductAPI.JWT.AuthConfigurer.<>c__DisplayClass0_0.<Configure>b__1(JwtBearerOptions options) in /Users/XuYa/Projects/CommerceOnContainers/CatalogAPI/JWT/AuthConfigurer.cs:line 25
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass10_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+INFO  2019-03-16 10:48:13,304 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1602.8432ms 500 application/json
+INFO  2019-03-16 10:48:13,534 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/favicon.ico  
+ERROR 2019-03-16 10:48:13,545 [13   ] e.Diagnostics.ExceptionHandlerMiddleware - An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.Text.Encoding.GetBytes(String s)
+   at ProductAPI.JWT.AuthConfigurer.<>c__DisplayClass0_0.<Configure>b__1(JwtBearerOptions options) in /Users/XuYa/Projects/CommerceOnContainers/CatalogAPI/JWT/AuthConfigurer.cs:line 25
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass10_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+INFO  2019-03-16 10:48:13,569 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.965ms 500 application/json
+INFO  2019-03-16 10:48:18,063 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger  
+ERROR 2019-03-16 10:48:18,074 [12   ] e.Diagnostics.ExceptionHandlerMiddleware - An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.Text.Encoding.GetBytes(String s)
+   at ProductAPI.JWT.AuthConfigurer.<>c__DisplayClass0_0.<Configure>b__1(JwtBearerOptions options) in /Users/XuYa/Projects/CommerceOnContainers/CatalogAPI/JWT/AuthConfigurer.cs:line 25
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass10_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+INFO  2019-03-16 10:48:18,080 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.0168ms 500 application/json
+INFO  2019-03-16 10:48:18,190 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/favicon.ico  
+ERROR 2019-03-16 10:48:18,196 [13   ] e.Diagnostics.ExceptionHandlerMiddleware - An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.Text.Encoding.GetBytes(String s)
+   at ProductAPI.JWT.AuthConfigurer.<>c__DisplayClass0_0.<Configure>b__1(JwtBearerOptions options) in /Users/XuYa/Projects/CommerceOnContainers/CatalogAPI/JWT/AuthConfigurer.cs:line 25
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass10_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+INFO  2019-03-16 10:48:18,202 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.5519ms 500 application/json
+INFO  2019-03-16 10:55:25,089 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger  
+INFO  2019-03-16 10:55:25,780 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 694.7376ms 301 
+INFO  2019-03-16 10:55:25,784 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger/index.html  
+INFO  2019-03-16 10:55:26,039 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 254.9645ms 200 text/html
+INFO  2019-03-16 10:55:26,064 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger/swagger-ui.css  
+INFO  2019-03-16 10:55:26,077 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger/swagger-ui-bundle.js  
+INFO  2019-03-16 10:55:26,116 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-03-16 10:55:26,151 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2019-03-16 10:55:26,151 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 86.9904ms 200 text/css
+INFO  2019-03-16 10:55:26,160 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2019-03-16 10:55:26,160 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 43.9183ms 200 application/javascript
+INFO  2019-03-16 10:55:26,209 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2019-03-16 10:55:26,219 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 141.4719ms 200 application/javascript
+INFO  2019-03-16 10:55:26,484 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger/v1/swagger.json  
+INFO  2019-03-16 10:55:26,520 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger/favicon-32x32.png  
+INFO  2019-03-16 10:55:26,520 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2019-03-16 10:55:26,520 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4924ms 200 image/png
+INFO  2019-03-16 10:55:26,699 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 215.1903ms 200 application/json;charset=utf-8
+INFO  2019-03-16 10:55:33,201 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/api/TestUserInfo  
+INFO  2019-03-16 10:55:33,316 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "TestUserInfo"}. Executing action ProductAPI.Controllers.TestUserInfoController.Get (CatalogAPI)
+INFO  2019-03-16 10:55:33,336 [5    ] uthorization.DefaultAuthorizationService - Authorization failed.
+INFO  2019-03-16 10:55:33,336 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+INFO  2019-03-16 10:55:33,341 [5    ] Microsoft.AspNetCore.Mvc.ChallengeResult - Executing ChallengeResult with authentication schemes ().
+INFO  2019-03-16 10:55:33,349 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was challenged.
+INFO  2019-03-16 10:55:33,352 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.TestUserInfoController.Get (CatalogAPI) in 32.9115ms
+INFO  2019-03-16 10:55:33,352 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 150.3517ms 401 
+INFO  2019-03-16 11:06:09,469 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/  
+INFO  2019-03-16 11:06:09,920 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 454.9451ms 404 
+INFO  2019-03-16 11:06:21,069 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger/index.html  
+INFO  2019-03-16 11:06:21,385 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 315.7878ms 200 text/html
+INFO  2019-03-16 11:06:21,750 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger/v1/swagger.json  
+INFO  2019-03-16 11:06:21,925 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 174.4771ms 200 application/json;charset=utf-8
+INFO  2019-03-16 11:07:32,978 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/api/Products/1/20/name/desc/""  
+INFO  2019-03-16 11:07:33,039 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-03-16 11:07:34,124 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (1, 20, name, desc, "") - Validation state: Valid
+INFO  2019-03-16 11:07:35,254 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1127.6913ms.
+INFO  2019-03-16 11:07:35,266 [16   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-03-16 11:07:35,287 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 2245.2058ms
+INFO  2019-03-16 11:07:35,287 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2308.6648ms 200 application/json; charset=utf-8
+INFO  2019-03-16 11:08:27,396 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/api/Products/get?id=5ba3864c526f33c1efac4769  
+INFO  2019-03-16 11:08:27,400 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-03-16 11:08:27,404 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (5ba3864c526f33c1efac4769) - Validation state: Valid
+INFO  2019-03-16 11:08:27,441 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 37.1305ms.
+INFO  2019-03-16 11:08:27,442 [14   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-03-16 11:08:27,442 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 42.3853ms
+INFO  2019-03-16 11:08:27,442 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 46.0415ms 200 application/json; charset=utf-8
+INFO  2019-03-31 17:22:27,412 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/  
+INFO  2019-03-31 17:22:28,321 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 915.914ms 404 
+INFO  2019-03-31 17:22:32,717 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger  
+INFO  2019-03-31 17:22:32,723 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.1806ms 301 
+INFO  2019-03-31 17:22:32,752 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger/index.html  
+INFO  2019-03-31 17:22:33,081 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 328.3386ms 200 text/html
+INFO  2019-03-31 17:22:33,124 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger/swagger-ui.css  
+INFO  2019-03-31 17:22:33,126 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger/swagger-ui-bundle.js  
+INFO  2019-03-31 17:22:33,206 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-03-31 17:22:33,239 [29   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2019-03-31 17:22:33,239 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 114.7564ms 200 text/css
+INFO  2019-03-31 17:22:33,298 [29   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2019-03-31 17:22:33,312 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 106.7544ms 200 application/javascript
+INFO  2019-03-31 17:22:33,319 [27   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2019-03-31 17:22:33,320 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 193.9308ms 200 application/javascript
+INFO  2019-03-31 17:22:33,577 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger/v1/swagger.json  
+INFO  2019-03-31 17:22:33,588 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger/favicon-32x32.png  
+INFO  2019-03-31 17:22:33,610 [27   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2019-03-31 17:22:33,610 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 22.287ms 200 image/png
+INFO  2019-03-31 17:22:33,789 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 212.1425ms 200 application/json;charset=utf-8
+INFO  2019-03-31 17:25:32,457 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/  
+INFO  2019-03-31 17:25:32,813 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 361.5055ms 404 
+INFO  2019-03-31 17:25:40,640 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/home/index  
+INFO  2019-03-31 17:25:40,641 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.2882ms 404 
+INFO  2019-03-31 17:25:46,870 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/HOme/Index  
+INFO  2019-03-31 17:25:46,871 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 25.8793ms 404 
+INFO  2019-03-31 17:25:49,862 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger/index.html  
+INFO  2019-03-31 17:25:50,122 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 259.6548ms 200 text/html
+INFO  2019-03-31 17:25:50,442 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger/v1/swagger.json  
+ERROR 2019-03-31 17:25:50,814 [8    ] e.Diagnostics.ExceptionHandlerMiddleware - An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Ambiguous HTTP method for action - CatalogAPI.Controllers.HomeController.Index (CatalogAPI). Actions require an explicit HttpMethod binding for Swagger 2.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItem(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath, String[] schemes)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+INFO  2019-03-31 17:25:50,829 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 386.6116ms 500 application/json
+INFO  2019-03-31 17:27:41,189 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger/index.html  
+INFO  2019-03-31 17:27:41,774 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 588.1132ms 200 text/html
+INFO  2019-03-31 17:27:42,022 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger/v1/swagger.json  
+INFO  2019-03-31 17:27:42,208 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 186.5352ms 200 application/json;charset=utf-8
+INFO  2019-03-31 17:28:27,584 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger/index.html  
+INFO  2019-03-31 17:28:28,155 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 574.9322ms 200 text/html
+INFO  2019-03-31 17:28:28,276 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger/v1/swagger.json  
+INFO  2019-03-31 17:28:28,338 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger/favicon-32x32.png  
+INFO  2019-03-31 17:28:28,364 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2019-03-31 17:28:28,364 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 50.6846ms 200 image/png
+INFO  2019-03-31 17:28:28,497 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 220.7225ms 200 application/json;charset=utf-8
+INFO  2019-04-01 22:07:35,752 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger/index.html  
+INFO  2019-04-01 22:07:37,049 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1300.0766ms 200 text/html
+INFO  2019-04-01 22:07:37,130 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger/swagger-ui-bundle.js  
+INFO  2019-04-01 22:07:37,130 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-04-01 22:07:37,245 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2019-04-01 22:07:37,245 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 115.0821ms 200 application/javascript
+INFO  2019-04-01 22:07:37,309 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2019-04-01 22:07:37,317 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 187.1592ms 200 application/javascript
+INFO  2019-04-01 22:07:37,589 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger/v1/swagger.json  
+INFO  2019-04-01 22:07:37,808 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 219.0737ms 200 application/json;charset=utf-8
+INFO  2019-04-01 22:08:03,840 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/api/Products/1/10/asin/ascending/   
+INFO  2019-04-01 22:08:03,981 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 22:08:05,052 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (1, 10, asin, ascending, ) - Validation state: Valid
+INFO  2019-04-01 22:08:46,364 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 41305.768ms.
+INFO  2019-04-01 22:08:46,382 [15   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 22:08:46,403 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 42417.421ms
+INFO  2019-04-01 22:08:46,403 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 42561.4278ms 200 application/json; charset=utf-8
+INFO  2019-04-01 22:37:29,578 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger/index.html  
+INFO  2019-04-01 22:37:30,273 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 699.4598ms 200 text/html
+INFO  2019-04-01 22:37:30,699 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger/v1/swagger.json  
+INFO  2019-04-01 22:37:30,915 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 215.9152ms 200 application/json;charset=utf-8
+INFO  2019-04-01 22:37:49,007 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/api/Products/1/10/asin/ascending/{q}  
+INFO  2019-04-01 22:37:49,081 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 22:37:50,122 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (1, 10, asin, ascending, {q}) - Validation state: Valid
+INFO  2019-04-01 22:38:25,213 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 35086.3514ms.
+INFO  2019-04-01 22:38:25,226 [14   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 22:38:25,255 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 36170.1316ms
+INFO  2019-04-01 22:38:25,256 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36247.7564ms 200 application/json; charset=utf-8
+INFO  2019-04-01 22:39:55,031 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger/index.html  
+INFO  2019-04-01 22:39:55,729 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 702.6331ms 200 text/html
+INFO  2019-04-01 22:39:55,911 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger/v1/swagger.json  
+INFO  2019-04-01 22:39:55,937 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger/favicon-32x32.png  
+INFO  2019-04-01 22:39:55,988 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2019-04-01 22:39:55,989 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 51.7038ms 200 image/png
+INFO  2019-04-01 22:39:56,111 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 200.6178ms 200 application/json;charset=utf-8
+INFO  2019-04-01 22:40:16,647 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/api/Products/1/10/asin/ascending/{q}?q=apple  
+INFO  2019-04-01 22:40:16,711 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 22:40:17,958 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (1, 10, asin, ascending, {q}) - Validation state: Valid
+INFO  2019-04-01 22:42:08,221 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger/index.html  
+INFO  2019-04-01 22:42:08,894 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 676.0359ms 200 text/html
+INFO  2019-04-01 22:42:09,061 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger/v1/swagger.json  
+INFO  2019-04-01 22:42:09,084 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger/favicon-32x32.png  
+INFO  2019-04-01 22:42:09,118 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2019-04-01 22:42:09,118 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 33.9014ms 200 image/png
+INFO  2019-04-01 22:42:09,259 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 198.2444ms 200 application/json;charset=utf-8
+INFO  2019-04-01 22:43:18,127 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/api/Products/1/10/asin/ascending/  
+INFO  2019-04-01 22:43:18,130 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.2286ms 404 
+INFO  2019-04-01 22:51:37,730 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger/index.html  
+INFO  2019-04-01 22:51:38,657 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 931.0047ms 200 text/html
+INFO  2019-04-01 22:51:38,909 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET https://localhost:5601/swagger/v1/swagger.json  
+INFO  2019-04-01 22:51:39,124 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 215.1179ms 200 application/json;charset=utf-8
+INFO  2019-04-01 22:52:06,631 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST https://localhost:5601/api/Products/GetProduct?CurrentPage=1&PageSize=10&SortColumn=asin&Order=desc  0
+WARN  2019-04-01 22:52:06,655 [6    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 22:52:06,656 [6    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 22:52:06,724 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 22:52:07,719 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 22:52:17,414 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 9691.91ms.
+INFO  2019-04-01 22:52:17,424 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 22:52:17,452 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 10724.3288ms
+INFO  2019-04-01 22:52:17,453 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10821.7279ms 200 application/json; charset=utf-8
+INFO  2019-04-01 22:52:27,482 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST https://localhost:5601/api/Products/GetProduct?CurrentPage=1&PageSize=10&SortColumn=asin&Order=desc&Keyword=apple  0
+WARN  2019-04-01 22:52:27,490 [6    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 22:52:27,491 [6    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 22:52:27,492 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 22:52:27,493 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 22:52:31,320 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3826.8102ms.
+INFO  2019-04-01 22:52:31,322 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 22:52:31,322 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 3830.2315ms
+INFO  2019-04-01 22:52:31,322 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3839.8837ms 200 application/json; charset=utf-8
+INFO  2019-04-01 22:53:23,632 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST https://localhost:5601/api/Products/GetProduct?CurrentPage=1&PageSize=10&SortColumn=asin&Order=desc&Keyword=Standard%20Chartered%20Bank  0
+WARN  2019-04-01 22:53:23,650 [13   ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 22:53:23,650 [13   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 22:53:23,650 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 22:53:23,652 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 22:53:23,668 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 15.7209ms.
+INFO  2019-04-01 22:53:23,668 [13   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 22:53:23,668 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 17.9339ms
+INFO  2019-04-01 22:53:23,668 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.4566ms 200 application/json; charset=utf-8
+INFO  2019-04-01 22:53:40,609 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST https://localhost:5601/api/Products/GetProduct?CurrentPage=1&PageSize=10&SortColumn=asin&Order=desc&Keyword=Standard%20Chartered%20Bank  0
+WARN  2019-04-01 22:53:40,614 [5    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 22:53:40,614 [5    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 22:53:40,615 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 22:53:40,615 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 22:54:08,543 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 27919.0262ms.
+INFO  2019-04-01 22:54:08,543 [5    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 22:54:08,543 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 27927.7004ms
+INFO  2019-04-01 22:54:08,543 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 27933.2185ms 200 application/json; charset=utf-8
+INFO  2019-04-01 22:54:28,794 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST https://localhost:5601/api/Products/GetProduct?CurrentPage=1&PageSize=10&SortColumn=asin&Order=desc&Keyword=Moto  0
+WARN  2019-04-01 22:54:28,823 [34   ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 22:54:28,823 [34   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 22:54:28,823 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 22:54:28,823 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 22:54:30,831 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2007.4646ms.
+INFO  2019-04-01 22:54:30,831 [34   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 22:54:30,831 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 2008.2006ms
+INFO  2019-04-01 22:54:30,832 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2037.2976ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:03:13,682 [19   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLLMMCKSBKGG" bad request data: "Invalid request line: '\x16\x03\x01\x02\x00\x01\x00\x01\xFC\x03\x03\xAF\x91\xD4\xC4\xC5M\xD1\xAF\x89\xC500\x87\x1D'\xF3%\xB1\x84\xDA\x83l\xDF\xB9\x09\x99t\x1B\xA1qq\xD9 \x93\x1FL\xC6\x8B\xE6\xF8*r\x99\x8E\x9D\xAE\x92g\xEB\xD0\x98\xC7\xD6\x8D\xB1\xF7\x15?I"L\x1F40\x0D\x00"::\x13\x01\x13\x02\x13\x03\xC0+\xC0/\xC0,\xC00\xCC\xA9\xCC\xA8\xC0\x13\xC0\x14\x00\x9C\x00\x9D\x00/\x005\x00\x0A'"
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Invalid request line: '\x16\x03\x01\x02\x00\x01\x00\x01\xFC\x03\x03\xAF\x91\xD4\xC4\xC5M\xD1\xAF\x89\xC500\x87\x1D'\xF3%\xB1\x84\xDA\x83l\xDF\xB9\x09\x99t\x1B\xA1qq\xD9 \x93\x1FL\xC6\x8B\xE6\xF8*r\x99\x8E\x9D\xAE\x92g\xEB\xD0\x98\xC7\xD6\x8D\xB1\xF7\x15?I"L\x1F40\x0D\x00"::\x13\x01\x13\x02\x13\x03\xC0+\xC0/\xC0,\xC00\xCC\xA9\xCC\xA8\xC0\x13\xC0\x14\x00\x9C\x00\x9D\x00/\x005\x00\x0A'
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.RejectRequestLine(Byte* requestLine, Int32 length)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.GetUnknownMethod(Byte* data, Int32 length, Int32& methodLength)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, Byte* data, Int32 length)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, ReadOnlySequence`1& buffer, SequencePosition& consumed, SequencePosition& examined)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.IHttpParser<TRequestHandler>.ParseRequestLine(TRequestHandler handler, ReadOnlySequence`1& buffer, SequencePosition& consumed, SequencePosition& examined)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(ReadOnlySequence`1 buffer, SequencePosition& consumed, SequencePosition& examined)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(ReadOnlySequence`1 buffer, SequencePosition& consumed, SequencePosition& examined)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+INFO  2019-04-01 23:03:13,682 [18   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLLMMCKSBKGF" bad request data: "Invalid request line: '\x16\x03\x01\x02\x00\x01\x00\x01\xFC\x03\x039\xADy\xC0yf\xD3\xABV\x8D\xC9\x86X\xD4\x81\x00t~%%;\xECd\xE7\xB7m)7$4\xF5\xC3 \x1AF\x17\x19\xF5\xD5(O\xBF\xAF\x8C\xF6bn\x8A+\x1A\x85\x09b\x81J\x90k5\xD7_\x0F\xD7\x02i\x15\x00"ZZ\x13\x01\x13\x02\x13\x03\xC0+\xC0/\xC0,\xC00\xCC\xA9\xCC\xA8\xC0\x13\xC0\x14\x00\x9C\x00\x9D\x00/\x005\x00\x0A'"
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Invalid request line: '\x16\x03\x01\x02\x00\x01\x00\x01\xFC\x03\x039\xADy\xC0yf\xD3\xABV\x8D\xC9\x86X\xD4\x81\x00t~%%;\xECd\xE7\xB7m)7$4\xF5\xC3 \x1AF\x17\x19\xF5\xD5(O\xBF\xAF\x8C\xF6bn\x8A+\x1A\x85\x09b\x81J\x90k5\xD7_\x0F\xD7\x02i\x15\x00"ZZ\x13\x01\x13\x02\x13\x03\xC0+\xC0/\xC0,\xC00\xCC\xA9\xCC\xA8\xC0\x13\xC0\x14\x00\x9C\x00\x9D\x00/\x005\x00\x0A'
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.RejectRequestLine(Byte* requestLine, Int32 length)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.GetUnknownMethod(Byte* data, Int32 length, Int32& methodLength)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, Byte* data, Int32 length)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, ReadOnlySequence`1& buffer, SequencePosition& consumed, SequencePosition& examined)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.IHttpParser<TRequestHandler>.ParseRequestLine(TRequestHandler handler, ReadOnlySequence`1& buffer, SequencePosition& consumed, SequencePosition& examined)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(ReadOnlySequence`1 buffer, SequencePosition& consumed, SequencePosition& examined)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(ReadOnlySequence`1 buffer, SequencePosition& consumed, SequencePosition& examined)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+INFO  2019-04-01 23:03:13,865 [19   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLLMMCKSBKGH" bad request data: "Invalid request line: '\x16\x03\x01\x00\xC3\x01\x00\x00\xBF\x03\x03A\xEA\xB0\xEE\xCA"\xA5L\x83%/\xB1'\xCCM\x82\xF3J&\xAC\xE9\xA1\xFB\xD8\xD7\xF4\xC6\xA5\x10\xC0\xC47\x00\x00\x1C\x1A\x1A\xC0+\xC0/\xC0,\xC00\xCC\xA9\xCC\xA8\xC0\x13\xC0\x14\x00\x9C\x00\x9D\x00/\x005\x00\x0A'"
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Invalid request line: '\x16\x03\x01\x00\xC3\x01\x00\x00\xBF\x03\x03A\xEA\xB0\xEE\xCA"\xA5L\x83%/\xB1'\xCCM\x82\xF3J&\xAC\xE9\xA1\xFB\xD8\xD7\xF4\xC6\xA5\x10\xC0\xC47\x00\x00\x1C\x1A\x1A\xC0+\xC0/\xC0,\xC00\xCC\xA9\xCC\xA8\xC0\x13\xC0\x14\x00\x9C\x00\x9D\x00/\x005\x00\x0A'
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.RejectRequestLine(Byte* requestLine, Int32 length)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.GetUnknownMethod(Byte* data, Int32 length, Int32& methodLength)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, Byte* data, Int32 length)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, ReadOnlySequence`1& buffer, SequencePosition& consumed, SequencePosition& examined)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.IHttpParser<TRequestHandler>.ParseRequestLine(TRequestHandler handler, ReadOnlySequence`1& buffer, SequencePosition& consumed, SequencePosition& examined)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(ReadOnlySequence`1 buffer, SequencePosition& consumed, SequencePosition& examined)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(ReadOnlySequence`1 buffer, SequencePosition& consumed, SequencePosition& examined)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+INFO  2019-04-01 23:03:28,170 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/swagger/index.html  
+INFO  2019-04-01 23:03:29,034 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 863.8653ms 200 text/html
+INFO  2019-04-01 23:03:29,311 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/swagger/v1/swagger.json  
+INFO  2019-04-01 23:03:29,577 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 265.9804ms 200 application/json;charset=utf-8
+INFO  2019-04-01 23:06:13,032 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/1/20  
+INFO  2019-04-01 23:06:13,099 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-04-01 23:06:13,132 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (1, 20) - Validation state: Valid
+INFO  2019-04-01 23:06:14,852 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1717.2953ms.
+INFO  2019-04-01 23:06:14,865 [23   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:06:14,909 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 1806.8854ms
+INFO  2019-04-01 23:06:14,909 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1876.8291ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:06:26,179 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/1/10  
+WARN  2019-04-01 23:06:26,225 [23   ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:06:26,225 [23   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:06:26,230 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-04-01 23:06:26,231 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (1, 10) - Validation state: Valid
+INFO  2019-04-01 23:06:27,039 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 807.8887ms.
+INFO  2019-04-01 23:06:27,040 [23   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:06:27,056 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 825.2859ms
+INFO  2019-04-01 23:06:27,056 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 877.2508ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:06:32,236 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/2/10  
+WARN  2019-04-01 23:06:32,242 [27   ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:06:32,242 [27   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:06:32,242 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-04-01 23:06:32,243 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (2, 10) - Validation state: Valid
+INFO  2019-04-01 23:06:32,744 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 501.3929ms.
+INFO  2019-04-01 23:06:32,744 [27   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:06:32,746 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 503.6872ms
+INFO  2019-04-01 23:06:32,746 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 510.5535ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:06:35,205 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:5106/api/Products/GetProduct  
+WARN  2019-04-01 23:06:35,213 [27   ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:06:35,213 [27   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:06:35,214 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.2851ms 204 
+INFO  2019-04-01 23:06:35,221 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProduct application/json;charset=UTF-8 84
+WARN  2019-04-01 23:06:35,226 [27   ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:06:35,226 [27   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:06:35,233 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:06:36,370 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:06:37,207 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 1974.1514ms
+ERROR 2019-04-01 23:06:37,314 [27   ] e.Diagnostics.ExceptionHandlerMiddleware - An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: field
+   at MongoDB.Driver.Core.Misc.Ensure.IsNotNull[T](T value, String paramName)
+   at MongoDB.Driver.DirectionalSortDefinition`1..ctor(FieldDefinition`1 field, SortDirection direction)
+   at MongoDB.Driver.SortDefinitionBuilder`1.Descending(FieldDefinition`1 field)
+   at ProductAPI.Service.ProductService.GetProducts(PagingRequestDto pagingRequestDto) in /Users/XuYa/Projects/CommerceOnContainers/CatalogAPI/Service/ProductService.cs:line 53
+   at ProductAPI.Controllers.ProductsController.Get(ProductFilter productFilter) in /Users/XuYa/Projects/CommerceOnContainers/CatalogAPI/Controllers/ProductsController.cs:line 40
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.InvokeCore(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+INFO  2019-04-01 23:06:37,328 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2107.1284ms 500 application/json
+INFO  2019-04-01 23:06:37,339 [27   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLLMMCKSBKGK", Request id "0HLLMMCKSBKGK:00000004": the application completed without reading the entire request body.
+INFO  2019-04-01 23:06:48,177 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Products/GetProduct  
+INFO  2019-04-01 23:06:48,210 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32.7314ms 404 
+INFO  2019-04-01 23:08:01,636 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:5106/api/Products/GetProducts  
+WARN  2019-04-01 23:08:01,727 [9    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:08:01,727 [9    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:08:01,792 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 160.1878ms 204 
+INFO  2019-04-01 23:08:01,800 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 84
+WARN  2019-04-01 23:08:01,804 [9    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:08:01,804 [9    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:08:02,387 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:08:03,448 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:08:04,354 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 1965.2718ms
+ERROR 2019-04-01 23:08:04,486 [9    ] e.Diagnostics.ExceptionHandlerMiddleware - An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: field
+   at MongoDB.Driver.Core.Misc.Ensure.IsNotNull[T](T value, String paramName)
+   at MongoDB.Driver.DirectionalSortDefinition`1..ctor(FieldDefinition`1 field, SortDirection direction)
+   at MongoDB.Driver.SortDefinitionBuilder`1.Descending(FieldDefinition`1 field)
+   at ProductAPI.Service.ProductService.GetProducts(PagingRequestDto pagingRequestDto) in /Users/XuYa/Projects/CommerceOnContainers/CatalogAPI/Service/ProductService.cs:line 53
+   at ProductAPI.Controllers.ProductsController.Get(ProductFilter productFilter) in /Users/XuYa/Projects/CommerceOnContainers/CatalogAPI/Controllers/ProductsController.cs:line 40
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.InvokeCore(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+INFO  2019-04-01 23:08:04,851 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3050.8808ms 500 application/json
+INFO  2019-04-01 23:08:04,862 [9    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLLMMFALIGBP", Request id "0HLLMMFALIGBP:00000002": the application completed without reading the entire request body.
+INFO  2019-04-01 23:08:08,157 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Products/GetProducts  
+INFO  2019-04-01 23:08:08,221 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 63.5691ms 404 
+INFO  2019-04-01 23:08:31,267 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:5106/api/Products/GetProducts  
+WARN  2019-04-01 23:08:31,272 [9    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:08:31,272 [9    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:08:31,272 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.5712ms 204 
+INFO  2019-04-01 23:08:31,299 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 84
+WARN  2019-04-01 23:08:31,307 [9    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:08:31,307 [9    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:08:31,307 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:08:31,308 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:09:23,166 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:5106/api/Products/GetProducts  
+WARN  2019-04-01 23:09:23,235 [8    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:09:23,236 [8    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:09:23,264 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 104.751ms 204 
+INFO  2019-04-01 23:09:23,271 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 84
+WARN  2019-04-01 23:09:23,275 [5    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:09:23,275 [5    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:09:23,708 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:09:24,528 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:10:46,984 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:5106/api/Products/GetProducts  
+WARN  2019-04-01 23:10:47,047 [6    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:10:47,047 [6    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:10:47,072 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 91.9735ms 204 
+INFO  2019-04-01 23:10:47,080 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 84
+WARN  2019-04-01 23:10:47,086 [5    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:10:47,086 [5    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:10:47,480 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:10:48,638 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:11:04,967 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 16326.4685ms.
+INFO  2019-04-01 23:11:04,978 [5    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:11:05,011 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 17527.6271ms
+INFO  2019-04-01 23:11:05,018 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17937.5048ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:11:12,631 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:5106/api/Products/GetProducts  
+WARN  2019-04-01 23:11:12,635 [34   ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:11:12,635 [34   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:11:12,635 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.6252ms 204 
+INFO  2019-04-01 23:11:12,646 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 87
+WARN  2019-04-01 23:11:12,651 [5    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:11:12,651 [5    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:11:12,653 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:11:12,680 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:11:12,715 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 35.3469ms.
+INFO  2019-04-01 23:11:12,717 [5    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:11:12,719 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 65.8564ms
+INFO  2019-04-01 23:11:12,720 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 73.7877ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:11:16,908 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 87
+WARN  2019-04-01 23:11:16,915 [5    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:11:16,915 [5    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:11:16,916 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:11:16,916 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:11:16,937 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 21.0878ms.
+INFO  2019-04-01 23:11:16,937 [5    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:11:16,938 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 21.9142ms
+INFO  2019-04-01 23:11:16,938 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 29.6518ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:11:21,783 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:5106/api/Products/GetProducts  
+WARN  2019-04-01 23:11:21,788 [34   ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:11:21,788 [34   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:11:21,789 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.6876ms 204 
+INFO  2019-04-01 23:11:21,797 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 88
+WARN  2019-04-01 23:11:21,802 [6    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:11:21,802 [6    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:11:21,802 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:11:21,803 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:11:21,822 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 19.0309ms.
+INFO  2019-04-01 23:11:21,822 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:11:21,822 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 19.9927ms
+INFO  2019-04-01 23:11:21,843 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 46.0353ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:11:24,963 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 88
+WARN  2019-04-01 23:11:24,970 [34   ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:11:24,970 [34   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:11:24,970 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:11:24,971 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:11:24,988 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 16.6763ms.
+INFO  2019-04-01 23:11:24,988 [34   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:11:24,988 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 17.5333ms
+INFO  2019-04-01 23:11:24,988 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 25.306ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:11:25,933 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 88
+WARN  2019-04-01 23:11:25,936 [5    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:11:25,936 [5    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:11:25,937 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:11:25,937 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:11:25,954 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 16.3869ms.
+INFO  2019-04-01 23:11:25,954 [5    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:11:25,955 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 18.2095ms
+INFO  2019-04-01 23:11:25,955 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 22.4482ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:11:26,537 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 88
+WARN  2019-04-01 23:11:26,541 [33   ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:11:26,541 [33   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:11:26,542 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:11:26,542 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:11:26,560 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 17.6985ms.
+INFO  2019-04-01 23:11:26,560 [33   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:11:26,560 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 18.4393ms
+INFO  2019-04-01 23:11:26,560 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 23.1324ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:11:27,258 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:5106/api/Products/GetProducts  
+WARN  2019-04-01 23:11:27,263 [6    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:11:27,263 [6    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:11:27,263 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.0362ms 204 
+INFO  2019-04-01 23:11:27,274 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 88
+WARN  2019-04-01 23:11:27,278 [6    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:11:27,278 [6    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:11:27,279 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:11:27,280 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:11:27,301 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 20.8288ms.
+INFO  2019-04-01 23:11:27,301 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:11:27,301 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 22.5252ms
+INFO  2019-04-01 23:11:27,301 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 27.4267ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:11:37,948 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:5106/api/Products/GetProducts  
+WARN  2019-04-01 23:11:37,955 [12   ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:11:37,955 [12   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:11:37,955 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.9098ms 204 
+INFO  2019-04-01 23:11:37,997 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 84
+WARN  2019-04-01 23:11:38,027 [34   ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:11:38,027 [34   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:11:38,027 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:11:38,044 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:11:38,281 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 236.9183ms.
+INFO  2019-04-01 23:11:38,281 [34   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:11:38,281 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 253.8907ms
+INFO  2019-04-01 23:11:38,281 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 283.9718ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:11:40,996 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 92
+WARN  2019-04-01 23:11:41,000 [12   ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:11:41,001 [12   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:11:41,001 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:11:41,002 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:11:41,024 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 21.5852ms.
+INFO  2019-04-01 23:11:41,024 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:11:41,024 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 23.1093ms
+INFO  2019-04-01 23:11:41,025 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 28.9995ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:12:41,123 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:5106/api/Products/GetProducts  
+WARN  2019-04-01 23:12:41,128 [34   ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:12:41,128 [34   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:12:41,128 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.8658ms 204 
+INFO  2019-04-01 23:12:41,138 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 90
+WARN  2019-04-01 23:12:41,145 [6    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:12:41,145 [6    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:12:41,145 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:12:41,146 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:12:41,188 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 41.0721ms.
+INFO  2019-04-01 23:12:41,188 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:12:41,188 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 42.4235ms
+INFO  2019-04-01 23:12:41,188 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 50.1992ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:12:44,173 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 90
+WARN  2019-04-01 23:12:44,184 [5    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:12:44,184 [5    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:12:44,184 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:12:44,185 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:12:44,214 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 28.7231ms.
+INFO  2019-04-01 23:12:44,215 [5    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:12:44,215 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 30.4934ms
+INFO  2019-04-01 23:12:44,215 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 66.7655ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:12:45,018 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 90
+WARN  2019-04-01 23:12:45,023 [12   ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:12:45,023 [12   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:12:45,024 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:12:45,024 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:12:45,049 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 24.2778ms.
+INFO  2019-04-01 23:12:45,049 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:12:45,049 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 25.3086ms
+INFO  2019-04-01 23:12:45,049 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 31.078ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:12:45,749 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 90
+WARN  2019-04-01 23:12:45,753 [12   ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:12:45,753 [12   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:12:45,753 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:12:45,755 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:12:45,771 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 15.8413ms.
+INFO  2019-04-01 23:12:45,771 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:12:45,771 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 17.6256ms
+INFO  2019-04-01 23:12:45,771 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 22.6038ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:12:46,457 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:5106/api/Products/GetProducts  
+WARN  2019-04-01 23:12:46,461 [5    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:12:46,462 [5    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:12:46,462 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.4247ms 204 
+INFO  2019-04-01 23:12:46,472 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 90
+WARN  2019-04-01 23:12:46,478 [6    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:12:46,479 [6    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:12:46,479 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:12:46,480 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:12:46,494 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 14.3027ms.
+INFO  2019-04-01 23:12:46,495 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:12:46,495 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 16.058ms
+INFO  2019-04-01 23:12:46,495 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 23.2241ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:12:47,166 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 90
+WARN  2019-04-01 23:12:47,170 [33   ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:12:47,170 [33   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:12:47,170 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:12:47,172 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:12:47,188 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 15.878ms.
+INFO  2019-04-01 23:12:47,188 [33   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:12:47,188 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 17.3056ms
+INFO  2019-04-01 23:12:47,188 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 22.0392ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:12:48,077 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 90
+WARN  2019-04-01 23:12:48,082 [5    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:12:48,082 [5    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:12:48,082 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:12:48,083 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:12:48,099 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 15.7931ms.
+INFO  2019-04-01 23:12:48,099 [5    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:12:48,099 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 16.8036ms
+INFO  2019-04-01 23:12:48,099 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 22.0443ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:12:49,291 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 90
+WARN  2019-04-01 23:12:49,297 [5    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:12:49,297 [5    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:12:49,297 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:12:49,298 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:12:49,316 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 18.2027ms.
+INFO  2019-04-01 23:12:49,316 [5    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:12:49,320 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 22.8401ms
+INFO  2019-04-01 23:12:49,320 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 29.0604ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:12:50,620 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 90
+WARN  2019-04-01 23:12:50,624 [33   ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:12:50,624 [33   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:12:50,624 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:12:50,625 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:12:50,641 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 16.1932ms.
+INFO  2019-04-01 23:12:50,641 [33   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:12:50,641 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 17.0619ms
+INFO  2019-04-01 23:12:50,641 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 21.7642ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:13:05,159 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:5106/api/Products/GetProducts  
+WARN  2019-04-01 23:13:05,166 [12   ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:13:05,167 [12   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:13:05,167 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.7951ms 204 
+INFO  2019-04-01 23:13:05,185 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 90
+WARN  2019-04-01 23:13:05,192 [6    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:13:05,192 [6    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:13:05,192 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:13:05,193 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:13:05,209 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 15.5149ms.
+INFO  2019-04-01 23:13:05,209 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:13:05,209 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 16.4461ms
+INFO  2019-04-01 23:13:05,209 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 23.6628ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:13:08,576 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 91
+WARN  2019-04-01 23:13:08,594 [33   ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:13:08,594 [33   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:13:08,594 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:13:08,595 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:13:08,609 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 13.8134ms.
+INFO  2019-04-01 23:13:08,609 [33   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:13:08,609 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 14.7482ms
+INFO  2019-04-01 23:13:08,609 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 33.7775ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:13:09,611 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 91
+WARN  2019-04-01 23:13:09,618 [6    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:13:09,618 [6    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:13:09,619 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:13:09,619 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:13:09,627 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 8.0253ms.
+INFO  2019-04-01 23:13:09,627 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:13:09,627 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 8.8069ms
+INFO  2019-04-01 23:13:09,628 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.8763ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:13:10,371 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:5106/api/Products/GetProducts  
+WARN  2019-04-01 23:13:10,376 [6    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:13:10,376 [6    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:13:10,376 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.0296ms 204 
+INFO  2019-04-01 23:13:10,395 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 90
+WARN  2019-04-01 23:13:10,403 [6    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:13:10,403 [6    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:13:10,404 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:13:10,404 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:13:10,416 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 11.2406ms.
+INFO  2019-04-01 23:13:10,416 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:13:10,416 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 12.1829ms
+INFO  2019-04-01 23:13:10,416 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 21.3881ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:13:17,111 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:5106/api/Products/GetProducts  
+WARN  2019-04-01 23:13:17,122 [6    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:13:17,122 [6    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:13:17,123 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 12.1485ms 204 
+INFO  2019-04-01 23:13:17,144 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 91
+WARN  2019-04-01 23:13:17,150 [34   ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:13:17,150 [34   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:13:17,150 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:13:17,153 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:13:17,164 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 10.4924ms.
+INFO  2019-04-01 23:13:17,164 [34   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:13:17,164 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 13.9713ms
+INFO  2019-04-01 23:13:17,165 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 20.8755ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:13:19,764 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 91
+WARN  2019-04-01 23:13:19,775 [33   ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:13:19,775 [33   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:13:19,776 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:13:19,779 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:13:19,788 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 8.4166ms.
+INFO  2019-04-01 23:13:19,788 [33   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:13:19,788 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 11.1332ms
+INFO  2019-04-01 23:13:19,788 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 24.2432ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:13:20,674 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 90
+WARN  2019-04-01 23:13:20,679 [34   ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:13:20,679 [34   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:13:20,679 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:13:20,680 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:13:20,687 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 7.365ms.
+INFO  2019-04-01 23:13:20,687 [34   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:13:20,688 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 8.137ms
+INFO  2019-04-01 23:13:20,688 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.3211ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:13:22,613 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:5106/api/Products/GetProducts  
+WARN  2019-04-01 23:13:22,618 [34   ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:13:22,618 [34   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:13:22,618 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.5627ms 204 
+INFO  2019-04-01 23:13:22,636 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 91
+WARN  2019-04-01 23:13:22,643 [34   ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:13:22,644 [34   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:13:22,644 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:13:22,644 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:13:22,655 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 10.9339ms.
+INFO  2019-04-01 23:13:22,656 [34   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:13:22,656 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 12.2551ms
+INFO  2019-04-01 23:13:22,657 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 20.765ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:13:23,345 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 91
+WARN  2019-04-01 23:13:23,349 [5    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:13:23,349 [5    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:13:23,349 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:13:23,350 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:13:23,358 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 7.8803ms.
+INFO  2019-04-01 23:13:23,358 [5    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:13:23,358 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 8.6395ms
+INFO  2019-04-01 23:13:23,358 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.3073ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:13:24,202 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 90
+WARN  2019-04-01 23:13:24,206 [6    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:13:24,206 [6    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:13:24,207 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:13:24,207 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:13:24,241 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 33.8885ms.
+INFO  2019-04-01 23:13:24,241 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:13:24,241 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 34.6635ms
+INFO  2019-04-01 23:13:24,241 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.7737ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:13:26,450 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 91
+WARN  2019-04-01 23:13:26,454 [35   ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:13:26,454 [35   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:13:26,455 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:13:26,455 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:13:26,463 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 7.6437ms.
+INFO  2019-04-01 23:13:26,463 [35   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:13:26,463 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 8.5781ms
+INFO  2019-04-01 23:13:26,463 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.7625ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:13:40,635 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:5106/api/Products/GetProducts  
+WARN  2019-04-01 23:13:40,639 [34   ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:13:40,639 [34   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:13:40,639 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.5455ms 204 
+INFO  2019-04-01 23:13:40,650 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 85
+WARN  2019-04-01 23:13:40,655 [6    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:13:40,655 [6    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:13:40,655 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:13:40,656 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:13:40,714 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 58.0126ms.
+INFO  2019-04-01 23:13:40,714 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:13:40,714 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 58.6724ms
+INFO  2019-04-01 23:13:40,714 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 63.4752ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:13:43,447 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 85
+WARN  2019-04-01 23:13:43,457 [6    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:13:43,457 [6    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:13:43,457 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:13:43,458 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:13:43,531 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 73.2949ms.
+INFO  2019-04-01 23:13:43,532 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:13:43,532 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 74.1667ms
+INFO  2019-04-01 23:13:43,532 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 84.7747ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:13:44,415 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 84
+WARN  2019-04-01 23:13:44,420 [9    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:13:44,420 [9    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:13:44,420 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:13:44,421 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:13:44,493 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 71.8394ms.
+INFO  2019-04-01 23:13:44,493 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:13:44,494 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 73.4076ms
+INFO  2019-04-01 23:13:44,494 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 78.5281ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:13:45,878 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:5106/api/Products/GetProducts  
+WARN  2019-04-01 23:13:45,883 [9    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:13:45,883 [9    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:13:45,883 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.6574ms 204 
+INFO  2019-04-01 23:13:45,905 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 84
+WARN  2019-04-01 23:13:45,913 [6    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:13:45,913 [6    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:13:45,913 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:13:45,914 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:13:45,965 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 51.2354ms.
+INFO  2019-04-01 23:13:45,965 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:13:45,965 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 52.1318ms
+INFO  2019-04-01 23:13:45,965 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 60.5189ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:14:13,919 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:5106/api/Products/update  
+WARN  2019-04-01 23:14:13,922 [6    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:14:13,922 [6    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:14:13,923 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.922ms 204 
+INFO  2019-04-01 23:14:13,926 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/update application/json;charset=UTF-8 188
+WARN  2019-04-01 23:14:13,936 [12   ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:14:13,936 [12   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:14:13,938 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Update", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Update (CatalogAPI)
+INFO  2019-04-01 23:14:13,941 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Update (CatalogAPI) with arguments (ProductAPI.Dto.ProductDto) - Validation state: Valid
+INFO  2019-04-01 23:14:14,405 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Update (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 464.5764ms.
+INFO  2019-04-01 23:14:14,406 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:14:14,406 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Update (CatalogAPI) in 467.6969ms
+INFO  2019-04-01 23:14:14,406 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 479.7208ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:14:14,411 [37   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:5106/api/Products/GetProducts  
+WARN  2019-04-01 23:14:14,418 [37   ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:14:14,418 [37   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:14:14,419 [37   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.8642ms 204 
+INFO  2019-04-01 23:14:14,426 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 84
+WARN  2019-04-01 23:14:14,432 [6    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:14:14,433 [6    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:14:14,433 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:14:14,435 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:14:14,523 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 88.0056ms.
+INFO  2019-04-01 23:14:14,524 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:14:14,525 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 91.9147ms
+INFO  2019-04-01 23:14:14,525 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 98.8874ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:14:22,846 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:5106/api/Products/GetProducts  
+WARN  2019-04-01 23:14:22,859 [5    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:14:22,860 [5    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:14:22,860 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.7295ms 204 
+INFO  2019-04-01 23:14:22,865 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 84
+WARN  2019-04-01 23:14:22,868 [5    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:14:22,868 [5    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:14:22,869 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:14:22,869 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:14:22,939 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 69.5011ms.
+INFO  2019-04-01 23:14:22,939 [5    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:14:22,939 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 70.2192ms
+INFO  2019-04-01 23:14:22,939 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 74.1122ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:14:23,679 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 84
+WARN  2019-04-01 23:14:23,686 [6    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:14:23,686 [6    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:14:23,686 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:14:23,687 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:14:23,755 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 68.2496ms.
+INFO  2019-04-01 23:14:23,755 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:14:23,755 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 69.1771ms
+INFO  2019-04-01 23:14:23,755 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 76.8138ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:14:24,522 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 84
+WARN  2019-04-01 23:14:24,530 [5    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:14:24,530 [5    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:14:24,531 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:14:24,531 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:14:24,605 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 73.6401ms.
+INFO  2019-04-01 23:14:24,605 [5    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:14:24,605 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 74.4135ms
+INFO  2019-04-01 23:14:24,605 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 83.436ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:14:25,781 [37   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5106/api/Products/GetProducts application/json;charset=UTF-8 84
+WARN  2019-04-01 23:14:25,785 [37   ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:14:25,785 [37   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:14:25,786 [37   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Products"}. Executing action ProductAPI.Controllers.ProductsController.Get (CatalogAPI)
+INFO  2019-04-01 23:14:25,786 [37   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI) with arguments (ProductAPI.Controllers.ProductFilter) - Validation state: Valid
+INFO  2019-04-01 23:14:25,838 [37   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.ProductsController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 51.4858ms.
+INFO  2019-04-01 23:14:25,838 [37   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:14:25,838 [37   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.ProductsController.Get (CatalogAPI) in 52.394ms
+INFO  2019-04-01 23:14:25,838 [37   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 56.7729ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:14:38,542 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/1/10  
+WARN  2019-04-01 23:14:38,571 [8    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:14:38,571 [8    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:14:38,577 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-04-01 23:14:38,580 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (1, 10) - Validation state: Valid
+INFO  2019-04-01 23:14:39,299 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 719.2079ms.
+INFO  2019-04-01 23:14:39,300 [8    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:14:39,342 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 764.3793ms
+INFO  2019-04-01 23:14:39,342 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 800.4938ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:16:03,612 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/2/10  
+WARN  2019-04-01 23:16:03,619 [5    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:16:03,620 [5    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:16:03,620 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-04-01 23:16:03,620 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (2, 10) - Validation state: Valid
+INFO  2019-04-01 23:16:04,225 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 604.5494ms.
+INFO  2019-04-01 23:16:04,234 [5    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:16:04,237 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 617.5964ms
+INFO  2019-04-01 23:16:04,238 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 625.4608ms 200 application/json; charset=utf-8
+INFO  2019-04-01 23:16:40,512 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/3/10  
+WARN  2019-04-01 23:16:40,516 [8    ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-04-01 23:16:40,516 [8    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-04-01 23:16:40,516 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-04-01 23:16:40,516 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (3, 10) - Validation state: Valid
+INFO  2019-04-01 23:16:40,936 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 419.9174ms.
+INFO  2019-04-01 23:16:40,945 [8    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-04-01 23:16:40,948 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 431.9715ms
+INFO  2019-04-01 23:16:40,949 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 437.0347ms 200 application/json; charset=utf-8
+INFO  2019-06-24 23:43:22,621 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/  
+INFO  2019-06-24 23:43:23,060 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 443.9358ms 404 
+INFO  2019-06-24 23:43:27,755 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/swagger  
+INFO  2019-06-24 23:43:27,781 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 26.5205ms 301 
+INFO  2019-06-24 23:43:27,786 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/swagger/index.html  
+INFO  2019-06-24 23:43:28,085 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 299.5344ms 200 text/html
+INFO  2019-06-24 23:43:28,118 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/swagger/swagger-ui.css  
+INFO  2019-06-24 23:43:28,129 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/swagger/swagger-ui-bundle.js  
+INFO  2019-06-24 23:43:28,191 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-06-24 23:43:28,279 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2019-06-24 23:43:28,282 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2019-06-24 23:43:28,309 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2019-06-24 23:43:28,317 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 188.0942ms 200 application/javascript
+INFO  2019-06-24 23:43:28,317 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 149.783ms 200 application/javascript
+INFO  2019-06-24 23:43:28,317 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 199.5744ms 200 text/css
+INFO  2019-06-24 23:43:28,713 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/swagger/v1/swagger.json  
+INFO  2019-06-24 23:43:28,806 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/swagger/favicon-32x32.png  
+INFO  2019-06-24 23:43:28,807 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2019-06-24 23:43:28,807 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.0428ms 200 image/png
+INFO  2019-06-24 23:43:28,989 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 276.2737ms 200 application/json;charset=utf-8
+INFO  2019-06-24 23:43:37,127 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/1/10  
+INFO  2019-06-24 23:43:37,187 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-06-24 23:43:37,226 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (1, 10) - Validation state: Valid
+INFO  2019-06-24 23:43:53,404 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 16174.8108ms.
+INFO  2019-06-24 23:43:53,416 [5    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-06-24 23:43:53,475 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 16284.53ms
+INFO  2019-06-24 23:43:53,475 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16347.544ms 200 application/json; charset=utf-8
+INFO  2019-06-24 23:49:09,016 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/1/30  
+INFO  2019-06-24 23:49:09,019 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-06-24 23:49:09,023 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (1, 30) - Validation state: Valid
+INFO  2019-06-24 23:49:09,566 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 542.4956ms.
+INFO  2019-06-24 23:49:09,567 [22   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-06-24 23:49:09,586 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 566.2793ms
+INFO  2019-06-24 23:49:09,586 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 570.3414ms 200 application/json; charset=utf-8
+INFO  2019-06-24 23:49:10,282 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/favicon.ico  
+INFO  2019-06-24 23:49:10,282 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.5508ms 404 
+INFO  2019-06-24 23:54:53,292 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/1/30  
+INFO  2019-06-24 23:54:53,300 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-06-24 23:54:53,300 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (1, 30) - Validation state: Valid
+INFO  2019-06-24 23:54:53,665 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 364.9474ms.
+INFO  2019-06-24 23:54:53,665 [30   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-06-24 23:54:53,671 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 371.0019ms
+INFO  2019-06-24 23:54:53,671 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 379.3366ms 200 application/json; charset=utf-8
+INFO  2019-06-24 23:56:50,397 [32   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/1/30  
+INFO  2019-06-24 23:56:50,398 [32   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-06-24 23:56:50,398 [32   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (1, 30) - Validation state: Valid
+INFO  2019-06-24 23:56:50,802 [32   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 403.7871ms.
+INFO  2019-06-24 23:56:50,802 [32   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-06-24 23:56:50,807 [32   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 409.0236ms
+INFO  2019-06-24 23:56:50,807 [32   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 410.0269ms 200 application/json; charset=utf-8
+INFO  2019-06-25 00:03:54,006 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/1/30  
+INFO  2019-06-25 00:03:54,015 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-06-25 00:03:54,016 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (1, 30) - Validation state: Valid
+INFO  2019-06-25 00:03:54,401 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 384.9877ms.
+INFO  2019-06-25 00:03:54,401 [41   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-06-25 00:03:54,416 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 400.3384ms
+INFO  2019-06-25 00:03:54,416 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 410.1191ms 200 application/json; charset=utf-8
+INFO  2019-06-25 00:06:45,514 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/1/30  
+INFO  2019-06-25 00:06:45,514 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-06-25 00:06:45,515 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (1, 30) - Validation state: Valid
+INFO  2019-06-25 00:06:46,016 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 501.6218ms.
+INFO  2019-06-25 00:06:46,016 [48   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-06-25 00:06:46,023 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 507.9392ms
+INFO  2019-06-25 00:06:46,023 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 508.6439ms 200 application/json; charset=utf-8
+INFO  2019-06-25 00:11:12,965 [50   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/1/30  
+INFO  2019-06-25 00:11:12,966 [50   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-06-25 00:11:12,966 [50   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (1, 30) - Validation state: Valid
+INFO  2019-06-25 00:11:13,699 [50   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 732.6643ms.
+INFO  2019-06-25 00:11:13,699 [50   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-06-25 00:11:13,727 [50   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 760.859ms
+INFO  2019-06-25 00:11:13,727 [50   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 762.4977ms 200 application/json; charset=utf-8
+INFO  2019-06-25 00:12:25,199 [59   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/1/30  
+INFO  2019-06-25 00:12:25,201 [59   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-06-25 00:12:25,201 [59   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (1, 30) - Validation state: Valid
+INFO  2019-06-25 00:12:25,870 [59   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 669.1046ms.
+INFO  2019-06-25 00:12:25,870 [59   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-06-25 00:12:25,875 [59   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 674.6812ms
+INFO  2019-06-25 00:12:25,876 [59   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 676.84ms 200 application/json; charset=utf-8
+INFO  2019-06-25 00:14:59,275 [65   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/1/30  
+INFO  2019-06-25 00:14:59,276 [65   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-06-25 00:14:59,277 [65   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (1, 30) - Validation state: Valid
+INFO  2019-06-25 00:15:00,155 [65   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 878.3931ms.
+INFO  2019-06-25 00:15:00,155 [65   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-06-25 00:15:00,161 [65   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 884.3051ms
+INFO  2019-06-25 00:15:00,161 [65   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 885.8397ms 200 application/json; charset=utf-8
+INFO  2019-06-25 22:15:41,389 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/1/30  
+INFO  2019-06-25 22:15:41,668 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-06-25 22:15:41,689 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (1, 30) - Validation state: Valid
+INFO  2019-06-25 22:15:42,413 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 720.3191ms.
+INFO  2019-06-25 22:15:42,414 [45   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-06-25 22:15:42,433 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 764.3255ms
+INFO  2019-06-25 22:15:42,434 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1070.8788ms 200 application/json; charset=utf-8
+INFO  2019-06-25 22:17:46,260 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/1/30  
+INFO  2019-06-25 22:17:46,261 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-06-25 22:17:46,261 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (1, 30) - Validation state: Valid
+INFO  2019-06-25 22:17:46,840 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 578.643ms.
+INFO  2019-06-25 22:17:46,840 [43   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-06-25 22:17:46,847 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 585.4504ms
+INFO  2019-06-25 22:17:46,847 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 586.9661ms 200 application/json; charset=utf-8
+INFO  2019-06-25 22:19:25,481 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/1/30  
+WARN  2019-06-25 22:19:25,569 [41   ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-06-25 22:19:25,572 [41   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-06-25 22:19:25,581 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-06-25 22:19:25,581 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (1, 30) - Validation state: Valid
+INFO  2019-06-25 22:19:26,138 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 557.1839ms.
+INFO  2019-06-25 22:19:26,138 [41   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-06-25 22:19:26,156 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 575.1092ms
+INFO  2019-06-25 22:19:26,156 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 675.0612ms 200 application/json; charset=utf-8
+INFO  2019-06-25 22:20:36,920 [40   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/1/30  
+WARN  2019-06-25 22:20:36,924 [40   ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-06-25 22:20:36,924 [40   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-06-25 22:20:36,924 [40   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-06-25 22:20:36,924 [40   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (1, 30) - Validation state: Valid
+INFO  2019-06-25 22:20:37,486 [40   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 561.2657ms.
+INFO  2019-06-25 22:20:37,486 [40   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-06-25 22:20:37,493 [40   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 568.5943ms
+INFO  2019-06-25 22:20:37,493 [40   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 572.6968ms 200 application/json; charset=utf-8
+INFO  2019-06-25 22:20:49,309 [38   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/1/30  
+INFO  2019-06-25 22:20:49,310 [38   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-06-25 22:20:49,310 [38   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (1, 30) - Validation state: Valid
+INFO  2019-06-25 22:20:49,902 [38   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 591.3779ms.
+INFO  2019-06-25 22:20:49,902 [38   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-06-25 22:20:49,909 [38   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 598.9832ms
+INFO  2019-06-25 22:20:49,909 [38   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 599.6855ms 200 application/json; charset=utf-8
+INFO  2019-06-25 22:22:25,960 [38   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/1/30  
+INFO  2019-06-25 22:22:25,960 [38   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-06-25 22:22:25,961 [38   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (1, 30) - Validation state: Valid
+INFO  2019-06-25 22:22:26,499 [38   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 530.1818ms.
+INFO  2019-06-25 22:22:26,499 [38   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-06-25 22:22:26,511 [38   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 550.4694ms
+INFO  2019-06-25 22:22:26,511 [38   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 573.2361ms 200 application/json; charset=utf-8
+INFO  2019-06-25 22:23:36,071 [38   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/1/30  
+INFO  2019-06-25 22:23:36,071 [38   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-06-25 22:23:36,072 [38   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (1, 30) - Validation state: Valid
+INFO  2019-06-25 22:23:36,428 [38   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 356.0695ms.
+INFO  2019-06-25 22:23:36,428 [38   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-06-25 22:23:36,433 [38   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 361.4097ms
+INFO  2019-06-25 22:23:36,433 [38   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 361.9134ms 200 application/json; charset=utf-8
+INFO  2019-06-25 22:28:43,139 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/1/30  
+INFO  2019-06-25 22:28:43,140 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-06-25 22:28:43,140 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (1, 30) - Validation state: Valid
+INFO  2019-06-25 22:28:43,488 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 347.0353ms.
+INFO  2019-06-25 22:28:43,488 [41   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-06-25 22:28:43,492 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 352.129ms
+INFO  2019-06-25 22:28:43,492 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 353.472ms 200 application/json; charset=utf-8
+INFO  2019-06-25 22:28:56,739 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/1/30  
+INFO  2019-06-25 22:28:56,765 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-06-25 22:28:56,765 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (1, 30) - Validation state: Valid
+INFO  2019-06-25 22:28:57,093 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 327.8146ms.
+INFO  2019-06-25 22:28:57,093 [41   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-06-25 22:28:57,098 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 332.8184ms
+INFO  2019-06-25 22:28:57,098 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 358.7389ms 200 application/json; charset=utf-8
+INFO  2019-06-25 22:29:05,463 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/1/30  
+WARN  2019-06-25 22:29:05,488 [41   ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-06-25 22:29:05,488 [41   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-06-25 22:29:05,489 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-06-25 22:29:05,489 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (1, 30) - Validation state: Valid
+INFO  2019-06-25 22:29:05,846 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 356.8015ms.
+INFO  2019-06-25 22:29:05,846 [41   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-06-25 22:29:05,854 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 364.949ms
+INFO  2019-06-25 22:29:05,854 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 391.6122ms 200 application/json; charset=utf-8
+INFO  2019-06-25 22:29:12,362 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/1/30  
+INFO  2019-06-25 22:29:12,363 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-06-25 22:29:12,363 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (1, 30) - Validation state: Valid
+INFO  2019-06-25 22:29:12,718 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 355.1869ms.
+INFO  2019-06-25 22:29:12,718 [41   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-06-25 22:29:12,723 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 360.4921ms
+INFO  2019-06-25 22:29:12,723 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 361.3625ms 200 application/json; charset=utf-8
+INFO  2019-06-25 22:29:15,196 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/1/30  
+INFO  2019-06-25 22:29:15,219 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-06-25 22:29:15,219 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (1, 30) - Validation state: Valid
+INFO  2019-06-25 22:29:15,661 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 441.4599ms.
+INFO  2019-06-25 22:29:15,661 [41   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-06-25 22:29:15,667 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 447.3002ms
+INFO  2019-06-25 22:29:15,667 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 493.109ms 200 application/json; charset=utf-8
+INFO  2019-06-25 22:29:22,156 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/1/30  
+INFO  2019-06-25 22:29:22,231 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-06-25 22:29:22,231 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (1, 30) - Validation state: Valid
+INFO  2019-06-25 22:29:22,565 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 333.0179ms.
+INFO  2019-06-25 22:29:22,565 [48   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-06-25 22:29:22,572 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 340.3636ms
+INFO  2019-06-25 22:29:22,572 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 437.3326ms 200 application/json; charset=utf-8
+INFO  2019-06-25 22:29:30,336 [49   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/1/30  
+INFO  2019-06-25 22:29:30,362 [49   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-06-25 22:29:30,362 [49   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (1, 30) - Validation state: Valid
+INFO  2019-06-25 22:29:30,695 [49   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 332.6284ms.
+INFO  2019-06-25 22:29:30,695 [49   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-06-25 22:29:30,700 [49   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 338.1558ms
+INFO  2019-06-25 22:29:30,700 [49   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 363.6342ms 200 application/json; charset=utf-8
+INFO  2019-06-25 22:31:00,998 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/1/30  
+INFO  2019-06-25 22:31:00,999 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-06-25 22:31:00,999 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (1, 30) - Validation state: Valid
+INFO  2019-06-25 22:31:01,333 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 333.855ms.
+INFO  2019-06-25 22:31:01,333 [43   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-06-25 22:31:01,338 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 338.8126ms
+INFO  2019-06-25 22:31:01,338 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 339.8055ms 200 application/json; charset=utf-8
+INFO  2019-06-25 22:32:02,288 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/1/30  
+INFO  2019-06-25 22:32:02,312 [46   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-06-25 22:32:02,313 [46   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (1, 30) - Validation state: Valid
+INFO  2019-06-25 22:32:02,673 [46   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 359.6686ms.
+INFO  2019-06-25 22:32:02,673 [46   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-06-25 22:32:02,707 [46   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 394.1447ms
+INFO  2019-06-25 22:32:02,707 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 418.4935ms 200 application/json; charset=utf-8
+INFO  2019-06-25 22:32:09,388 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/1/30  
+WARN  2019-06-25 22:32:09,393 [45   ] pNetCore.Cors.Infrastructure.CorsService - The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.
+INFO  2019-06-25 22:32:09,393 [45   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-06-25 22:32:09,393 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-06-25 22:32:09,393 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (1, 30) - Validation state: Valid
+INFO  2019-06-25 22:32:09,770 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 376.6876ms.
+INFO  2019-06-25 22:32:09,770 [45   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-06-25 22:32:09,777 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 383.9976ms
+INFO  2019-06-25 22:32:09,777 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 389.0345ms 200 application/json; charset=utf-8
+INFO  2019-06-25 22:33:09,798 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/1/30  
+INFO  2019-06-25 22:33:09,798 [46   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-06-25 22:33:09,798 [46   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (1, 30) - Validation state: Valid
+INFO  2019-06-25 22:33:10,157 [46   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 358.2529ms.
+INFO  2019-06-25 22:33:10,161 [46   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-06-25 22:33:10,166 [46   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 367.4677ms
+INFO  2019-06-25 22:33:10,166 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 368.5076ms 200 application/json; charset=utf-8
+INFO  2019-06-25 22:33:11,712 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/1/30  
+INFO  2019-06-25 22:33:11,738 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-06-25 22:33:11,738 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (1, 30) - Validation state: Valid
+INFO  2019-06-25 22:33:12,080 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 342.4463ms.
+INFO  2019-06-25 22:33:12,081 [44   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-06-25 22:33:12,085 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 347.2651ms
+INFO  2019-06-25 22:33:12,085 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 372.9897ms 200 application/json; charset=utf-8
+INFO  2019-06-25 22:33:13,986 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/1/30  
+INFO  2019-06-25 22:33:13,995 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-06-25 22:33:13,995 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (1, 30) - Validation state: Valid
+INFO  2019-06-25 22:33:14,337 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 341.6987ms.
+INFO  2019-06-25 22:33:14,337 [44   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-06-25 22:33:14,343 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 347.9078ms
+INFO  2019-06-25 22:33:14,343 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 357.2428ms 200 application/json; charset=utf-8
+INFO  2019-06-25 22:42:31,114 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/1/30  
+INFO  2019-06-25 22:42:31,141 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-06-25 22:42:31,141 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (1, 30) - Validation state: Valid
+INFO  2019-06-25 22:42:31,490 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 348.5263ms.
+INFO  2019-06-25 22:42:31,490 [44   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-06-25 22:42:31,495 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 354.3324ms
+INFO  2019-06-25 22:42:31,495 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 381.8007ms 200 application/json; charset=utf-8
+INFO  2019-06-25 22:42:56,067 [52   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/1/30  
+INFO  2019-06-25 22:42:56,067 [52   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-06-25 22:42:56,067 [52   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (1, 30) - Validation state: Valid
+INFO  2019-06-25 22:42:56,478 [52   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 410.5617ms.
+INFO  2019-06-25 22:42:56,478 [52   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-06-25 22:42:56,483 [52   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 415.5832ms
+INFO  2019-06-25 22:42:56,483 [52   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 416.2308ms 200 application/json; charset=utf-8
+INFO  2019-06-25 22:45:41,823 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5106/api/Company/1/30  
+INFO  2019-06-25 22:45:41,875 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Company"}. Executing action ProductAPI.Controllers.CompanyController.Get (CatalogAPI)
+INFO  2019-06-25 22:45:41,925 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI) with arguments (1, 30) - Validation state: Valid
+INFO  2019-06-25 22:45:42,259 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ProductAPI.Controllers.CompanyController.Get (CatalogAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 333.9864ms.
+INFO  2019-06-25 22:45:42,259 [44   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'ProductAPI.Dto.GenericAPIResponse'.
+INFO  2019-06-25 22:45:42,268 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ProductAPI.Controllers.CompanyController.Get (CatalogAPI) in 393.2315ms
+INFO  2019-06-25 22:45:42,269 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 445.2982ms 200 application/json; charset=utf-8

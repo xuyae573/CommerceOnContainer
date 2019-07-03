@@ -1,0 +1,31 @@
+version: '3.4'
+
+services: 
+  catalog.redis:
+    image: redis:alpine
+
+  identity.api:
+    image: ${REGISTRY:-xuyae573}/identity.api:${PLATFORM:-linux}-${TAG:-latest}
+    build:
+      context: .
+      dockerfile: IdentityServerAPI/Dockerfile
+    ports:
+      - "5105:80" 
+
+  catalog.api:
+    image: ${REGISTRY:-xuyae573}/catalog.api:${PLATFORM:-linux}-${TAG:-latest}
+    build:
+      context: .
+      dockerfile: CatalogAPI/Dockerfile
+    ports:
+      - "5106:80" 
+    depends_on:
+      - catalog.redis
+
+  webspa:
+    image: ${REGISTRY:-xuyae573}/webspa:${PLATFORM:-linux}-${TAG:-latest}
+    build:
+      context: .
+      dockerfile: SimpleClient/Dockerfile  
+    ports:
+      - "8080:8080"
