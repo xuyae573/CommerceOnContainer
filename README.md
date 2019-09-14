@@ -1,6 +1,6 @@
 | **Module**  | **Technology**                 | Project Name |
 | ----------- | ------------------------------ | ------------ |
-| Frontend    | Vue + iView                    |              |
+| Frontend    | Vue + ElementUI                    |              |
 | Cache       | Redis                          |              |
 | Backend     | [ASP.NET](http://ASP.NET) Core |              |
 | Database    | MongoDb, SQL                   |              |
